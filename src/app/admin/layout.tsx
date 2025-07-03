@@ -1,7 +1,7 @@
 import {ReactNode} from "react";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 
-export default function RootLayer ({
+export default function AdminLayout ({
     children,
     }: Readonly<{
     children: React.ReactNode;
